@@ -1,55 +1,38 @@
-# Instructions
+# Python Modules, Packages, and Imports - Learning Module
 
-1. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Learning Objectives
 
-2. **Explore the code**  
-   Read through the files to understand how each part works.
+After completing this module, you will understand:
 
-3. **Run the original program**
-   ```bash
-   python3 using_package.py
-   ```
-   > Note: This demonstrates how to use a package instead of importing from separate files.
+### 1. **What is a Module?**
+- A single `.py` file containing Python code
+- Contains functions, classes, and variables
+- Can be imported directly: `from module_name import function`
 
-4. **Learn about Python modules and packages**
-   This repository demonstrates:
-   - **Modules**: Single `.py` files (like `data_preprocessing.py`)
-   - **Packages**: Directories with `__init__.py` (like `lr_package/`)
-   - **What `__init__.py` does**: Makes directories into packages and controls imports
-   - **Import patterns**: How to import from packages vs individual modules
+### 2. **What is a Package?**
+- A directory containing `__init__.py` and modules
+- Provides namespace organization
+- Allows cleaner imports: `from package_name import function`
 
-5. **Verify completion**  
-   Answer a quick quiz question to confirm you successfully ran the code:  
-   [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScjxQsGWvdjXWOI23znq1BWv39saW_lV0nxhKch_wlHOkNTeQ/viewform?usp=sharing&ouid=102851559774167624772)
+### 3. **What does `__init__.py` do?**
+- **Makes a directory a package** - Without it, Python won't recognize the directory as a package
+- **Runs initialization code** - Executes when the package is first imported
+- **Controls package imports** - Defines what gets imported with `from package import *`
+- **Exposes variables** - Can make module variables available at package level
 
-## What You'll Learn
+### 4. **Import Patterns**
+- **Module imports**: `from data_preprocessing import X_train, y_train`
+- **Package imports**: `from lr_package import lr_model, mse, r2`
+- **Relative imports** (within packages): `from .module import function`
 
-### 1. **Modules vs Packages**
-- **Module**: A single `.py` file containing Python code
-- **Package**: A directory containing `__init__.py` and modules
+### 5. **Benefits of Packages**
+- **Organization**: Related code grouped together
+- **Cleaner imports**: One import statement instead of multiple
+- **Maintainability**: Easier to manage and update
+- **Reusability**: Easy to use in other projects
 
-### 2. **What `__init__.py` Does**
-- Makes a directory into a Python package
-- Runs code when the package is first imported
-- Controls what gets imported with `from package import *`
-- Without it, Python won't recognize the directory as a package
+## Repository Structure
 
-### 3. **Import Patterns**
-- **Original approach**: Import from separate files
-  ```python
-  from data_preprocessing import X_train, y_train
-  from model import lr_model
-  from eval import mse, r2
-  ```
-- **Package approach**: Import everything from one package
-  ```python
-  from lr_package import lr_model, mse, r2
-  ```
-
-### 4. **File Structure**
 ```
 code_splitting_module_PART2/
 ├── using_package.py          # Example of using the package
@@ -61,11 +44,29 @@ code_splitting_module_PART2/
     └── eval.py              # Model evaluation
 ```
 
-### 5. **Key Benefits of Packages**
-- **Organization**: Related code grouped together
-- **Cleaner imports**: One import statement instead of multiple
-- **Maintainability**: Easier to manage and update
-- **Reusability**: Easy to use in other projects
+## How to Use This Module
+
+1. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Explore the code**  
+   Read through the files to understand how each part works.
+
+3. **Run the example**
+   ```bash
+   python3 using_package.py
+   ```
+   > This demonstrates how to use a package instead of importing from separate files.
+
+4. **Compare the approaches**
+   - **Without packages**: You'd need to import from 3 separate files
+   - **With packages**: You can import everything from one place
+
+5. **Verify completion**  
+   Answer a quick quiz question to confirm you successfully ran the code:  
+   [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScjxQsGWvdjXWOI23znq1BWv39saW_lV0nxhKch_wlHOkNTeQ/viewform?usp=sharing&ouid=102851559774167624772)
 
 ## How It Works
 
