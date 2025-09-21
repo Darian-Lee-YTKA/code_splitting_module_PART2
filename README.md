@@ -11,8 +11,8 @@ After completing this module, you will understand:
 
 ### 2. **What is a Package?**
 - A directory containing `__init__.py` and modules
-- Provides namespace organization
 - Allows cleaner imports: `from package_name import function`
+      - Say a package contains 100 files. Without a package, you would need to import from each file one one-by-one. Having a package allows you just import once from the package name
 
 ### 3. **What does `__init__.py` do?**
 - **Makes a directory a package** - Without it, Python won't recognize the directory as a package
@@ -66,7 +66,7 @@ code_splitting_module_PART2/
 
 5. **Verify completion**  
    Answer a quick quiz question to confirm you successfully ran the code:  
-   [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScjxQsGWvdjXWOI23znq1BWv39saW_lV0nxhKch_wlHOkNTeQ/viewform?usp=sharing&ouid=102851559774167624772)
+   [Quiz Link]([https://docs.google.com/forms/d/e/1FAIpQLScjxQsGWvdjXWOI23znq1BWv39saW_lV0nxhKch_wlHOkNTeQ/viewform?usp=sharing&ouid=102851559774167624772](https://docs.google.com/forms/d/e/1FAIpQLSdKIJtP58M1xWkUSXqe73a7gJXmpA2pqgUKg_MiPblw5IjPoQ/viewform?usp=header))
 
 ## How It Works
 
