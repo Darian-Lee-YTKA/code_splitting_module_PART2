@@ -12,7 +12,7 @@ After completing this module, you will understand:
 ### 2. **What is a Package?**
 - A directory containing `__init__.py` and modules
 - Allows cleaner imports: `from package_name import function`
-      - Say a package contains 100 files. Without a package, you would need to import from each file one one-by-one. Having a package allows you just import once from the package name
+  - Say a package contains 100 files. Without a package, you would need to import from each file one by one. Having a package allows you to just import once from the package name
 
 ### 3. **What does `__init__.py` do?**
 - **Makes a directory a package** - Without it, Python won't recognize the directory as a package
