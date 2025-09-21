@@ -61,7 +61,7 @@ code_splitting_module_PART2/
 
 5. **Verify completion**  
    Answer a quick quiz question to confirm you successfully ran the code:  
-   [Quiz Link]([https://docs.google.com/forms/d/e/1FAIpQLScjxQsGWvdjXWOI23znq1BWv39saW_lV0nxhKch_wlHOkNTeQ/viewform?usp=sharing&ouid=102851559774167624772](https://docs.google.com/forms/d/e/1FAIpQLSdKIJtP58M1xWkUSXqe73a7gJXmpA2pqgUKg_MiPblw5IjPoQ/viewform?usp=header))
+   [Quiz Link]([https://docs.google.com/forms/d/e/1FAIpQLSdKIJtP58M1xWkUSXqe73a7gJXmpA2pqgUKg_MiPblw5IjPoQ/viewform?usp=header])
 
 ## How It Works
 
