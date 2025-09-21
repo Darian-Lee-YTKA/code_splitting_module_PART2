@@ -20,11 +20,6 @@ After completing this module, you will understand:
 - **Controls package imports** - Defines what gets imported with `from package import *`
 - **Exposes variables** - Can make module variables available at package level
 
-### 4. **Import Patterns**
-- **Module imports**: `from data_preprocessing import X_train, y_train`
-- **Package imports**: `from lr_package import lr_model, mse, r2`
-- **Relative imports** (within packages): `from .module import function`
-
 ### 5. **Benefits of Packages**
 - **Organization**: Related code grouped together
 - **Cleaner imports**: One import statement instead of multiple
